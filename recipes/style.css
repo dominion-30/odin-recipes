@@ -1,0 +1,56 @@
+*{
+box-sizing: border-box;
+}
+
+
+h1, h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 217, 0);
+}
+
+h1 + div{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+ 
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 5px;
+    text-align: center;
+   
+    
+    
+}
+div > a{
+    display: block;
+    margin-bottom: 30px;
+    
+    
+}
+
+div > img{
+
+display: block;
+margin: 0 auto;
+width: 50%;
+}
+
+h3{
+    font-size: 30px;
+
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+li{
+    font-size: 16px;
+}
